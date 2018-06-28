@@ -4,8 +4,8 @@ html {
 }
 
 .header {
-  color:white;
-  background-image: url("./resources/images/the-flatiron-building.png");
+  color: white;
+  background-image: url("../images/the-flatiron-building.png");
   background-repeat: no-repeat;
 }
 
@@ -32,11 +32,17 @@ p {
   font-size: 14px;
 }
 
-.footer {
-  background-color: dimgray;
+a {
   color: white;
 }
 
-p.footer {
+.footer {
+  width: 100%;
+  background-color: dimgray;
+  color: white;
+  text-align: left;
+}
+
+.copyright {
   font-size: 11px;
 }
